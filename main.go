@@ -23,8 +23,8 @@ var about []byte
 // description is a plugin description used for 'tg plugin list' command
 const description = "template plugin"
 
-// source is a plugin source URL used for 'tg plugin update' command
-const source = "github.com/better0fdead/mock-plugin"
+// source is a plugin source URL used for 'tg plugin update/generate' command
+const source = "github.com/better0fdead/template_plugin"
 
 type Description struct {
 	Desc    string `json:"Desc,omitempty"`
